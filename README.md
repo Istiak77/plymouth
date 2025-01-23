@@ -5,9 +5,11 @@ Plymouth Setup on Arch Linux
     git clone https://github.com/Istiak77/SteamDeck-BootAnimation-Plymouth
 
     
-###Move the Steam folder to /usr/share/plymouth/themes/
+###Move the Steam folder to 
 
+    /usr/share/plymouth/themes/
 
+    
 ###THEME CREDIT GOES TO - MagiBoot-D3bootanimations
 
 
@@ -24,6 +26,8 @@ This guide provides step-by-step instructions for installing and configuring Ply
    3.Adding a Delay Script
 
    4.Changing Themes
+   
+   
 
 1. Installation
 
