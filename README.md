@@ -15,7 +15,15 @@ Plymouth Setup on Arch Linux
 
 ### https://t.me/MagiBoot
 
-                        #########FOLLOW THE INSTRUCTIONS BELLOW#########
+
+
+
+<iframe width="1920" height="826" src="https://www.youtube.com/embed/DtGghJxokEM" title="Steam Deck Boot Animation on Arch linux" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+
+                                                                                        #########FOLLOW THE INSTRUCTIONS BELLOW#########
     
 This guide provides step-by-step instructions for installing and configuring Plymouth on Arch Linux. Plymouth is a graphical boot splash screen that enhances the boot experience with animations and themes. This documentation covers:
 
