@@ -1,0 +1,9 @@
+[Plymouth Theme]
+Name=Steam-Deck
+Description=Steam Deck Bootanimation For Plymouth
+Comment=made by Vivek Rajan
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/Steam
+ScriptFile=/usr/share/plymouth/themes/Steam/Steam.script
