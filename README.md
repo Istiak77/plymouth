@@ -2,7 +2,7 @@ Plymouth Setup on Arch Linux
 
 ###clone this repo :
 
-    git clone https://github.com/Istiak77/SteamDeck-BootAnimation-Plymouth
+    git clone https://github.com/Istiak77/plymouth
 
     
 ###Move the Steam folder to 
