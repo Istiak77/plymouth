@@ -75,48 +75,7 @@ Install Plymouth
 	sudo systemctl enable plymouth-start.service
 
 
-3. Adding a Delay Script
-
-##To add a delay during the boot process (e.g., to see the Plymouth animation longer), create a custom initramfs hook.
-
-#Create the Delay Hook
-
-#Create a new hook file:
-
-	sudo nano /etc/initcpio/hooks/plymouth-delay
-
-#Add the following content to the file:
-
-    #!/bin/bash
-    run_hook() {
-        # Show the Plymouth splash screen
-        plymouth --show-splash
-        
-        # Add a delay (in seconds)
-        sleep 5  # Adjust the delay as needed (e.g., 5 seconds)
-    }
-
-#Make the hook executable:
-    
-    sudo chmod +x /etc/initcpio/hooks/plymouth-delay
-
-
-##Add the Hook to Initramfs
-
-#Open the initramfs configuration file:
-
-    sudo nano /etc/mkinitcpio.conf
-
-#Add plymouth-delay and plymouth to the HOOKS array. Place plymouth-delay before plymouth:
-
-    HOOKS=(base udev autodetect microcode modconf kms keyboard keymap consolefont block filesystems fsck plymouth-delay plymouth)
-
-
-#Save the file and rebuild the initramfs:
-    
-    sudo mkinitcpio -P
-
-4. Changing Themes
+3. Changing Themes
 
 ##List Available Themes
 
@@ -136,7 +95,7 @@ Install Plymouth
 
 #The -R flag applies the theme immediately and rebuilds the initramfs automatically.
 
-5. Reboot and Enjoy
+4. Reboot and Enjoy
 
 ##Reboot your system to see the Plymouth splash screen with the new theme and delay:
 
